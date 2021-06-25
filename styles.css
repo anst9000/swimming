@@ -1,0 +1,10 @@
+body {
+  background-color: blue;
+}
+
+#container
+{
+  width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+}
