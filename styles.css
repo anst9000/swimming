@@ -1,24 +1,25 @@
 body {
   background-color: rgb(39, 38, 38);
-  color:rgb(216, 216, 216);
+  color: rgb(216, 216, 216);
 }
 
-
-#container{
- max-width: 320px;
- margin: 2rem auto;
+#container {
+  max-width: 320px;
+  margin: 2rem auto;
 }
 
+.good,
+.bad {
+  display: none;
+}
 
 @media screen and (min-width: 700px) {
-  #container{
+  #container {
     width: 400px;
   }
 
   img {
     max-width: 75%;
     max-height: 75%;
-
   }
 }
-
